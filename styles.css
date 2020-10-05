@@ -1,0 +1,132 @@
+section
+{
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+marquee 
+{
+    height: 100vh;
+    
+    
+}
+.logo
+{ 
+    
+    opacity: 0.5;
+    max-width: 300px;
+    animation: animate 10s linear infinite;
+    
+}
+@keyframes animate 
+{
+    0%  
+    {
+        transform: rotate(0deg);
+    }
+    100%
+    {
+        transform: rotate(360deg);
+
+    }
+}
+.hero 
+{
+    left: 0;
+    line-height: 200px;
+    margin-top: -350px;
+    position: absolute;
+    text-align: center;
+    top: 50%;
+    width: 100%;
+    font-size: 37px;
+    margin-bottom: 0.1px;
+    
+}
+.face  
+{ 
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    height: 250px;
+    width: 250px;
+    margin-top: -675px;
+    border-radius: 50px;
+
+}
+.hero2
+{
+    text-align: center;
+    margin-top: 0.1px;
+    font-size: 25px;
+
+}
+.btn
+{
+    position: absolute;
+    text-align: center;
+    width: 100px;
+    top: 67%;
+    left: 47%;
+    font-size: 15px;
+    border-radius: 10px;
+    padding: 9px 9px;
+    background-color: rgb(248, 248, 248);
+
+}
+hr 
+{
+
+    margin-top: 0.5em;
+    margin-bottom: 0.5em;
+    margin-left: 100px;
+    margin-right: 100px;
+    border-style: inset;
+    border-width: 1px;
+    
+}
+.navbar 
+{
+    position: absolute; 
+    top: 78%;
+    left: 42%;
+    transform: translateX(-50) translateY(-50%);
+
+}
+li 
+{
+    display: inline-block;
+
+}
+
+li a {
+    text-decoration: none;
+    color: black;
+    padding: 0 10px
+
+}
+
+.hover-effect::after {
+    content: '';
+    display: block;
+    width: 0;
+    height: 2px;
+    background: slategray;
+    transition: width .3s
+
+}
+
+.hover-effect:hover::after {
+    width: 100%;
+    transition: width .3s;
+
+}
+    
+
+
+
+
+
+
+
